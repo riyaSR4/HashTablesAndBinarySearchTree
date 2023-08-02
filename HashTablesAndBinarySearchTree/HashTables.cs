@@ -57,6 +57,7 @@ namespace HashTablesAndBinarySearchTree
             if (itemFound)
             {
                 linkedList.Remove(foundItem);
+                Console.WriteLine("Deleted");
             }
         }
         protected LinkedList<KeyValue<K, V>> GetLinkedList(int position)

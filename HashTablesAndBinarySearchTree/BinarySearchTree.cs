@@ -22,7 +22,7 @@ namespace HashTablesAndBinarySearchTree
         public void Insert(T item)
         {
             T currentNodeValue = this.NodeData;
-            if ((currentNodeValue.CompareTo(item)) = 0)
+            if ((currentNodeValue.CompareTo(item)) > 0)
             {
                 if (this.LeftTree == null)
                     this.LeftTree = new BinarySearchTree<T>(item);
